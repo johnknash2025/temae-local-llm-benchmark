@@ -1,5 +1,7 @@
 # Temae: Local LLM Benchmark
 
+English | [日本語](README.ja.md)
+
 > Documentation only. The software is proprietary and its source is not published here. *Temae is the working name.*
 
 *Temae (点前) is the fixed procedure of the Japanese tea ceremony: the same steps, done the same way, every time. That is what this tool does for your models.*
