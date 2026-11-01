@@ -1,0 +1,18 @@
+title: "[Feedback] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tried Temae? Tell us anything: what worked, what felt odd, what you used it for. Short is fine.
+        使ってみた感想を何でも。良かったこと、使いにくかったこと、何に使ったか。短くて大丈夫です。
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Your feedback / 感想
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: OS (optional)
+      options: ["macOS", "Windows", "Linux", "Other / その他"]

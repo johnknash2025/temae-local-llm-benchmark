@@ -1,0 +1,38 @@
+title: "[Bug / Question] "
+labels: ["from-discussions"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Something not working, or a question? Write it here; no technical knowledge needed. Japanese or English is fine.
+        うまく動かない・分からないことがあれば、ここに書いてください。専門知識は要りません。日本語でも英語でも大丈夫です。
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened? / 何が起きましたか？
+      description: What you did, and what you expected instead. / やったことと、本当はどうなってほしかったか
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: OS
+      options: ["macOS", "Windows", "Linux", "Other / その他"]
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Temae version / 版
+      placeholder: "0.1.0-beta"
+  - type: input
+    id: hardware
+    attributes:
+      label: GPU / hardware (optional) / 機械（任意）
+      placeholder: "RTX 3090 24GB"
+      description: A hardware name only. Please do not paste host names, IP addresses or file paths. / 機械の名前だけ。ホスト名・IP・パスは書かないでください
+  - type: textarea
+    id: more
+    attributes:
+      label: Anything else / そのほか（任意）
+      description: Screenshots are welcome; please hide anything private. / スクリーンショット歓迎。見られたくない部分は隠してください

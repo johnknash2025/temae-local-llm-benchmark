@@ -1,0 +1,29 @@
+name: Bug report (technical) / 不具合（技術者向け）
+description: Reproducible bug with steps and logs. / 再現手順とログ付きの報告
+labels: ["bug"]
+body:
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce / 再現手順
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected vs actual / 期待した結果と実際
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: Temae version, OS, model server / 版・OS・モデルサーバー
+      placeholder: "0.1.0-beta, macOS 15, Ollama 0.x"
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / ログ
+      description: Remove host names, IP addresses, paths and API keys first. / ホスト名・IP・パス・API キーは消してから貼ってください
+      render: text

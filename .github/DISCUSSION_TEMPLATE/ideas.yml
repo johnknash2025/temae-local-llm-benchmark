@@ -1,0 +1,12 @@
+title: "[Idea] "
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like Temae to do? / Temae にしてほしいこと
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why does it matter to you? (optional) / なぜ欲しいか（任意）
